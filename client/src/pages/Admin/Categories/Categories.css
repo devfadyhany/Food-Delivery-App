@@ -1,0 +1,9 @@
+.category-table-format {
+  grid-template-columns: 0.5fr 2fr 0.5fr !important;
+}
+
+@media (max-width: 600px) {
+  .category-table-format {
+    grid-template-columns: 1fr 2fr 1fr !important;
+  }
+}
