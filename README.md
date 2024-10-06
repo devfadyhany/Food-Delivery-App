@@ -6,7 +6,7 @@ food delivery web application inspired by 'Talabat'.
 
 ### Project Overview:
 
-This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) food delivery application where users can browse a menu, add items to their cart, and proceed to checkout. An admin dashboard allows for managing categories, items, and tracking orders.
+This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) food delivery application where users can browse the menu, add items to their cart, proceed to checkout, and track their orders. An admin dashboard allows for managing categories, items, and orders status.
 <hr>
 
 ### Used Technologies:
@@ -22,8 +22,8 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) food delivery
   
   ##### Back-End🔧:
   <ul>
-    <li>Node.js with Express.js</li>
-    <li>ExpressJS</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
     <li>MongoDB with Mongoose ODM</li>
     <li>JWT for authentication and authorization</li>
     <li>Nodemailer for email notifications (for email confirmation)</li>
@@ -35,7 +35,7 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) food delivery
 
 ### Environment Variables:
 
-Create a <mark>.env</mark> file in the <mark>/server</mark> directory and configure the following variables:
+Create a `.env` file in the `/server` directory and configure the following variables:
 <pre>
   <code class="language-env">
     # SERVER
